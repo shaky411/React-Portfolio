@@ -1,14 +1,17 @@
-// import logo from './logo.svg';
 import About from "./components/about"
+// import Contact from "./components/contact"
 import './App.css';
+import Navbar from "./components/navbar";
+import ProjectGallery from "./components/projectGallery";
 
 
 function App() {
   return (
-    <div className="App">
-      
+    <main className="App">
+      <Navbar></Navbar>
       <About></About>
-    </div>
+      <ProjectGallery></ProjectGallery>
+    </main>
   );
 }
 

@@ -1,4 +1,5 @@
 import React from "react";
+import myLogo from "../assets/user-mjn.jpg"
 
 export default function About() {
     return (
@@ -8,12 +9,10 @@ export default function About() {
           <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-black">
             Hi, I'm Marc.
             <br className="hidden lg:inline-block" />I love to build amazing
-            apps.
+            apps with React.
           </h1>
           <p className="mb-8 leading-relaxed">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui
-            laborum quasi, incidunt dolore iste nostrum cupiditate voluptas?
-            Laborum, voluptas natus?
+            Please join me on my journey into the world of Front End Development and check out my current and past projects below.
           </p>
           <div className="flex justify-center">
             <a
@@ -28,11 +27,11 @@ export default function About() {
             </a>
           </div>
         </div>
-        <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
+        <div className="lg:max-w-sm lg:w-full md:w-1/2 w-5/6">
           <img
-            // className="object-cover object-center rounded"
+            className="object-cover object-center rounded-xl shadow-xl"
             alt="hero"
-            // src="./logo192.png"
+            src={myLogo}
           />
         </div>
       </div>
